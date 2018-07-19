@@ -1,0 +1,20 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+main {
+  animation: 0.5s bodyPopIn ease-in-out;
+}
+
+@keyframes bodyPopIn {
+  from {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}

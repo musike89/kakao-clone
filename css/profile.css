@@ -1,0 +1,65 @@
+.top-header--transparent {
+  background-color: transparent;
+}
+
+.profile .profile__header {
+  height: 80vh;
+  background-image: url(https://s3.amazonaws.com/spoonflower/public/design_thumbnails/0464/2981/20150927-366_-_2inch_stripes_-_Vertical_-_Rainbow_shop_preview.png);
+  width: 100%;
+  position: relative;
+  top: -60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.profile__header .profile__header-container {
+  text-align: center;
+  bottom: -60px;
+  position: relative;
+}
+
+.profile__header-container img {
+  width: 100px;
+  border-radius: 50%;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.profile .profile__container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile__container input {
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.profile__actions {
+  display: flex;
+}
+
+.profile__action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.profile__action-circle {
+  background: #f2f2f2;
+  padding: 15px;
+  border-radius: 50%;
+  color: #523737;
+  margin-bottom: 15px;
+}
+
+.profile__action-title {
+  font-size: 12px;
+  font-weight: 600;
+}
